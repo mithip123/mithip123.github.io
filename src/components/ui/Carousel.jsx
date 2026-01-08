@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-export default function Carousel({ items, renderItem, ariaLabel = "carousel" }) {
+export default function Carousel({ items = [], renderItem, ariaLabel = "carousel" }) {
   const ref = useRef(null);
   const [canScroll, setCanScroll] = useState(false);
   const [atStart, setAtStart] = useState(true);
@@ -34,13 +34,13 @@ export default function Carousel({ items, renderItem, ariaLabel = "carousel" }) 
 
     update();
     window.addEventListener("resize", update);
-    el.addEventListener("scroll", update);
+    el.addEventListener("scroll", update, { passive: true });
 
     return () => {
       window.removeEventListener("resize", update);
       el.removeEventListener("scroll", update);
     };
-  }, [items?.length]);
+  }, [items.length]);
 
   return (
     <div className="relative">
@@ -78,6 +78,8 @@ export default function Carousel({ items, renderItem, ariaLabel = "carousel" }) 
 
       <div
         ref={ref}
+        role="region"
+        aria-label={ariaLabel}
         className={[
           "flex gap-4 overflow-x-auto scroll-smooth",
           "pb-2 pt-1 px-1",

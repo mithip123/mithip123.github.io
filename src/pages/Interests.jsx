@@ -42,9 +42,24 @@ export default function Interests() {
 
   useSEO({
     title: "Interests - Mithilesh Pinjarkar",
-    description: "Interests and pursuits of Mithilesh Pinjarkar outside of work, including public speaking, books, movies, sports, volunteering, and creative pursuits.",
-    path: "/interests/"
+    description:
+      "Interests and pursuits of Mithilesh Pinjarkar outside of work, including public speaking, books, movies, sports, volunteering, and creative pursuits.",
+    path: "/interests/",
   });
+
+  // Preload speaking hero image (if present) to reduce perceived slowness / flicker
+  // (safe on GitHub Pages, and does not change layout)
+  if (typeof document !== "undefined" && speaking?.image) {
+    const id = "preload-speaking-hero";
+    if (!document.getElementById(id)) {
+      const link = document.createElement("link");
+      link.id = id;
+      link.rel = "preload";
+      link.as = "image";
+      link.href = speaking.image;
+      document.head.appendChild(link);
+    }
+  }
 
   return (
     <PageContainer id="interests">
@@ -61,22 +76,13 @@ export default function Interests() {
         {/* Interest cards (2x2 grid) */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
           {quickInterests.map((it) => (
-            <InterestTile
-              key={it.title}
-              title={it.title}
-              icon={it.icon}
-              text={it.text}
-            />
+            <InterestTile key={it.title} title={it.title} icon={it.icon} text={it.text} />
           ))}
         </div>
 
         {/* Books */}
         <GlassCard className="p-5 sm:p-6">
-          <SectionHeader
-            icon={BookOpen}
-            title="Some books I’ve read"
-            subtitle="A rotating shelf of favorites."
-          />
+          <SectionHeader icon={BookOpen} title="Some books I’ve read" subtitle="A rotating shelf of favorites." />
 
           <div className="mt-4">
             <Carousel
@@ -96,11 +102,7 @@ export default function Interests() {
 
         {/* Movies & TV */}
         <GlassCard className="p-5 sm:p-6">
-          <SectionHeader
-            icon={Film}
-            title="My top movies & TV shows"
-            subtitle="A few that I keep recommending."
-          />
+          <SectionHeader icon={Film} title="My top movies & TV shows" subtitle="A few that I keep recommending." />
 
           <div className="mt-4">
             <Carousel

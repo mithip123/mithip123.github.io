@@ -1,31 +1,32 @@
+import { useState } from "react";
 import GlassCard from "../ui/GlassCard";
 import Carousel from "../ui/Carousel";
 import { Mic } from "lucide-react";
 
 export default function SpeakingHero({ speaking }) {
   const sp = speaking || {};
+  const [imgFailed, setImgFailed] = useState(false);
 
   return (
     <GlassCard className="p-5 sm:p-6">
       <div className="grid grid-cols-1 md:grid-cols-5 gap-5 items-stretch">
-        {/* Left image */}
         <div className="md:col-span-2 flex items-center justify-center rounded-2xl bg-transparent">
-          {sp.image ? (
+          {sp.image && !imgFailed ? (
             <img
               src={sp.image}
               alt={sp.title || "Public speaking"}
+              width="640"
+              height="640"
               className="max-h-[320px] w-full max-w-full object-contain"
               loading="lazy"
-              onError={(e) => {
-                e.currentTarget.style.display = "none";
-              }}
+              decoding="async"
+              onError={() => setImgFailed(true)}
             />
           ) : (
             <div className="w-full aspect-square rounded-2xl bg-black/[0.04]" />
           )}
         </div>
 
-        {/* Right content */}
         <div className="md:col-span-3 flex flex-col">
           <div className="flex items-start justify-between gap-4">
             <div>
@@ -61,6 +62,7 @@ export default function SpeakingHero({ speaking }) {
                         title={v.title || `Video ${i + 1}`}
                         src={v.embedUrl}
                         className="h-full w-full"
+                        loading="lazy"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen
                       />

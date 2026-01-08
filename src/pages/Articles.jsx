@@ -8,8 +8,9 @@ import useSEO from "../components/seo/useSEO";
 export default function Articles() {
     useSEO({
         title: "Articles - Mithilesh Pinjarkar",
-        description: "Articles by Mithilesh Pinjarkar on product management, entrepreneurship, interview and resume prep",
-        path: "/articles/"
+        description:
+            "Articles by Mithilesh Pinjarkar on product management, entrepreneurship, interview and resume prep",
+        path: "/articles/",
     });
 
     const articles = useMemo(() => articlesData || [], []);
@@ -17,11 +18,7 @@ export default function Articles() {
     return (
         <PageContainer id="articles">
             <div className="space-y-6">
-                <SectionHeader
-                    variant="page"
-                    title="Articles"
-                    subtitle="Some articles that I wrote..."
-                />
+                <SectionHeader variant="page" title="Articles" subtitle="Some articles that I wrote..." />
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
                     {articles.map((a) => (

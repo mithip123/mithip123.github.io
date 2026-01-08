@@ -20,7 +20,12 @@ export default function MediaCard({
         >
             <div className="rounded-2xl border border-black/10 bg-white/55 overflow-hidden transition duration-200 ease-out group-hover:-translate-y-[2px] group-hover:scale-[1.01] group-hover:bg-white/70">
                 <div className={[aspectClass, "bg-black/[0.04]"].join(" ")}>
-                    <ImgWithFallback src={x.image} alt={x.title} className="h-full w-full" />
+                    <ImgWithFallback
+                        src={x.image}
+                        alt={x.title}
+                        className="h-full w-full"
+                        sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 240px"
+                    />
                 </div>
 
                 <div className="p-3">
