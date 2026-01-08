@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  background:
+    radial-gradient(1000px 520px at 18% 12%, rgba(20, 24, 236, 0.16), transparent 50%),
+    radial-gradient(900px 520px at 82% 18%, rgba(1, 228, 153, 0.12), transparent 45%),
+    radial-gradient(900px 520px at 50% 92%, rgba(233, 21, 127, 0.1), transparent 50%),
+    linear-gradient(#f8fafc, #eef2f7);
+  background-attachment: fixed;
+}
+
+/* Smooth interaction defaults */
+a, button {
+  transition: transform 160ms ease, box-shadow 160ms ease, background-color 160ms ease, color 160ms ease, border-color 160ms ease;
+}
+
+a:active, button:active {
+  transform: scale(0.98);
+}

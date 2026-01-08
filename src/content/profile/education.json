@@ -1,0 +1,26 @@
+[
+  {
+    "degreeName": "Dual Degree (B.Tech and M.Tech)",
+    "institutionName": "IIT Kharagpur",
+    "duration": { "from": "Jul'15", "to": "May'20" },
+    "score": "8.32 CGPA",
+    "location": "Kharagpur",
+    "logo": "education-icons/iit-kgp.png"
+  },
+  {
+    "degreeName": "Higher Secondary (Class XII)",
+    "institutionName": "Sri Chaitanya Junior Kalasala",
+    "duration": { "from": "Jul'13", "to": "May'15" },
+    "score": "97%",
+    "location": "Hyderabad",
+    "logo": "education-icons/chaitanya.png"
+  },
+  {
+    "degreeName": "Secondary (Class X)",
+    "institutionName": "Bhavan's Lloyds Vidya Niketan",
+    "duration": { "from": "Jun'12", "to": "May'13" },
+    "score": "10.00 CGPA",
+    "location": "Wardha",
+    "logo": "education-icons/bhavans.png"
+  }
+]

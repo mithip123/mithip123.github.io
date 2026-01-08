@@ -1,0 +1,143 @@
+[
+  {
+    "positionTitle": "Senior Product Manager",
+    "companyName": "JoVE",
+    "companyLogo": "/experience-icons/jove.png",
+    "location": "Remote",
+    "duration": { "from": "Sep'23", "to": "Present" },
+    "type": "Full Time",
+    "description": [
+      {
+        "heading": "JoVE Quiz (Formative, Video-first Quiz Product)",
+        "bullets": [
+          "Led full redesign of the quiz experience across web and LMS, informed by competitive analysis (Quizizz, Kahoot), delivered a modern UI and streamlined user flows",
+          "Expanded the quiz library by 13,000+ AI-generated and expert-verified questions (22k → 35k, +50%), improving subject coverage and assessment flexibility",
+          "Released AI-powered quiz translation across 14 languages; non-English quizzes accounted for 15% of total quizzes created in 2025, driving global adoption",
+          "Impact: Quiz creation grew by 2.5x (4k → 10k) YoY, student attempts 5x (15k → 75k) YoY, comparing 2023 to 2024"
+        ]
+      },
+      {
+        "heading": "Implementing Faculty Adoption Sales Model and Redesign of app.jove.com",
+        "bullets": [
+          "Delivered Faculty Adoption Model (FAM) inspired by textbook publishing, supported by market research across North America and Europe (40+ interviews), and implemented a hybrid FAM + Library model with ISBN bundles and access codes",
+          "Spearheaded the redesign of the core application and established a centralised design system aligning UX across Quiz, Playlists, MyClass, navigation, and video pages",
+          "Impact: Generated $200K revenue in 2025, with an additional $1.4M+ pipeline for 2026"
+        ]
+      },
+      {
+        "heading": "JoVE Playlists (Content Curation and Learning Paths)",
+        "bullets": [
+          "Launched ‘Playlist Library’ that maps JoVE videos with popular textbooks, courses, and exams, making it easier for professors to adopt content mapped to their curriculum",
+          "Implemented playlist upload to LMS through Common Cartridge (CC) files (for non-LTI flows) and LTI-based support to add playlists as individual, reorderable videos",
+          "Impact: Playlist users grew by 2x (9k → 19k) YoY and playlist creations 3x (45k → 140k), comparing 2024 to 2025; 40% of these playlists were exported as CC files"
+        ]
+      }
+    ]
+  },
+  {
+    "positionTitle": "Product Manager",
+    "companyName": "Superset",
+    "companyLogo": "/experience-icons/superset.png",
+    "location": "Bangalore",
+    "duration": { "from": "Feb'21", "to": "Aug'23" },
+    "type": "Full Time",
+    "description": [
+      {
+        "heading": "Improving the client onboarding process and managing university clients' product requirements",
+        "bullets": [
+          "Understood and analyzed product requirements of 350 colleges (YoY Churn < 6%; NPS improved by +6)",
+          "Enhanced student invitation process, allowing 70 data points per student, converting registration to a 5-click process",
+          "Introduced bulk course and student management feature, enabling the onboarding team to onboard over 30 clients per week"
+        ]
+      },
+      {
+        "heading": "Ideating and implementing Superset Help Center to manage student queries",
+        "bullets": [
+          "Designed 'Superset Help Center' to manage help documentation; Average MoM tickets decreased by 18%; Average DAU 12k",
+          "Setup and implemented Zoho Analytics and Zoho SalesIQ for Support; Support Cost reduced by INR 14 Lakh per year",
+          "Implemented tree-based chatbot for student tickets, reduced daily student tickets by 19% and resolution time by 60%"
+        ]
+      },
+      {
+        "heading": "Decreasing student registration time and increasing job application conversions per registration -",
+        "bullets": [
+          "Revamped the student registration process to bring down overall registration time from an average of 15 minutes to 6 minutes",
+          "Improved student onboarding using matrimonial website UX learnings, increasing job application crate by 35%",
+          "Streamlined client onboarding process by installing new SOPs and internal features; reduced onboarding time by 3x"
+        ]
+      }
+    ]
+  },
+  {
+    "positionTitle": "Data Engineer II",
+    "companyName": "AB InBev",
+    "companyLogo": "/experience-icons/abinbev.png",
+    "location": "Bangalore",
+    "duration": { "from": "Jul'20", "to": "Feb'21" },
+    "type": "Full Time",
+    "description": [
+      {
+        "bullets": [
+          "Analyzed and evaluated 15+ vendors on 13 parameters for Data Catalogue implementation for Canada, China zones",
+          "Supported in defining logistics data strategy to enable and speed up Logistics Transformation objectives for the year",
+          "Ideated and implemented Beer Talks a(talk series) and Eureka (case competition) for 100+ incoming interns and FTEs"
+        ]
+      }
+    ]
+  },
+  {
+    "positionTitle": "Summer Intern",
+    "companyName": "AB InBev",
+    "companyLogo": "/experience-icons/abinbev.png",
+    "location": "Bangalore",
+    "duration": { "from": "May'19", "to": "Jul'19" },
+    "type": "Internship",
+    "description": [
+      {
+        "heading": "",
+        "bullets": [
+          "Proposed aggregator+Transport Management System to increase accuracy of Advanced Shipping Notice by 15%",
+          "Reduced Goods Receipt Processing Time by an average factor of 4 by suggesting automatic solution for unloading",
+          "Reduced Physical Inventory Counting Process Time by 30% by proposing fixed RFID tag solution at Mysore brewery",
+          "Categorized entire inventory according to ABC Classification and set up right cycle counting process for the same"
+        ]
+      }
+    ]
+  },
+  {
+    "positionTitle": "Summer Intern",
+    "companyName": "ITC",
+    "companyLogo": "/experience-icons/itc.png",
+    "location": "Saharanpur",
+    "duration": { "from": "May'18", "to": "Jul'18" },
+    "type": "Internship",
+    "description": [
+      {
+        "bullets": [
+          "Analyzed processes and automation possibilities by calculating man hours required using Visual Basic (MS-Excel)",
+          "Proposed the idea of Palletizer + Automatic Guided Vehicle, reducing 302.4 man hours per day in the factory",
+          "Implemented automatic printing of tobacco weight at the Cut Tobacco Store division, saving 0.23 Man Hours/day",
+          "Ideated a modified design for cigarette filter skillet, and executed on pilot scale, reducing time by a factor of 10"
+        ]
+      }
+    ]
+  },
+  {
+    "positionTitle": "Summer Intern",
+    "companyName": "Larsen & Toubro",
+    "companyLogo": "/experience-icons/lnt.png",
+    "location": "New Delhi",
+    "duration": { "from": "May'17", "to": "Jul'17" },
+    "type": "Internship",
+    "description": [
+      {
+        "bullets": [
+          "Compared and calculated efficiencies of various starting techniques of an Induction machine including the VFD",
+          "Studied working of VFD and analyzed its advantages over other starting techniques like the Direct Online Starter",
+          "Worked on SX2000 Variable Frequency Drive and EMX3 Soft Starter and reported differences in their functions",
+          "Developed an understanding of various switchgear and their working including MCB, MCCB, VCB, ACB etc"
+        ]
+      }
+    ]
+  }
+]

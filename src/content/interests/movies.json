@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Kim's Convenience",
+    "platform": "TV Series - Netflix",
+    "image": "/public/movies-images/kimsconvenience.jpeg",
+    "url": "https://www.netflix.com/in/title/80199128"
+  },
+  {
+    "title": "Knives Out Series",
+    "platform": "Movie Series - Netflix",
+    "image": "/public/movies-images/knivesout.jpeg",
+    "url": "https://www.netflix.com/in/title/81037684"
+  },
+  {
+    "title": "Oppenheimer",
+    "platform": "Movie - Prime Video",
+    "image": "/public/movies-images/oppenheimer.jpeg",
+    "url": "https://www.primevideo.com/detail/Oppenheimer/0TQ0HYSFFKAO9W3UUIOMSTPUJ7"
+  },
+  {
+    "title": "The Residence",
+    "platform": "TV Series - Netflix",
+    "image": "/public/movies-images/theresidence.jpg",
+    "url": "https://www.netflix.com/in/title/81005297"
+  },
+  {
+    "title": "Brooklyn Nine-Nine",
+    "platform": "TV Series - Netflix",
+    "image": "/public/movies-images/b99.jpeg",
+    "url": "https://www.netflix.com/in/title/70281562"
+  },
+  {
+    "title": "Schitt's Creek",
+    "platform": "TV Series - Netflix",
+    "image": "/public/movies-images/schittscreek.jpeg",
+    "url": "http://netflix.com/in/title/80036165"
+  },
+  {
+    "title": "Mirzapur",
+    "platform": "TV Series - Prime Video",
+    "image": "/public/movies-images/mirzapur.jpeg",
+    "url": "https://www.primevideo.com/detail/Mirzapur/0PDOKMV9CRLOMO5EUKNCUJLG4Q"
+  },
+  {
+    "title": "The Office",
+    "platform": "TV Series - Prime Video",
+    "image": "/public/movies-images/theoffice.jpg",
+    "url": "https://www.primevideo.com/detail/The-Office/0RMLEWROKWCLRYETGB757AYS4L"
+  },
+  {
+    "title": "Panchayat",
+    "platform": "TV Series - Prime Video",
+    "image": "/public/movies-images/panchayat.jpg",
+    "url": "https://www.primevideo.com/detail/Panchayat/0KAFPP1MAADAFUOA6I2WR5D4TM"
+  }
+]

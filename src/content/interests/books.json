@@ -1,0 +1,50 @@
+[
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "image": "/public/books-images/1984.jpg",
+    "url": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four"
+  },
+  {
+    "title": "Animal Farm",
+    "author": "George Orwell",
+    "image": "/public/books-images/animalfarm.jpg",
+    "url": "https://en.wikipedia.org/wiki/Animal_Farm"
+  },
+  {
+    "title": "The Immortals of Meluha (Shiva Trilogy #1)",
+    "author": "Amish Tripathi",
+    "image": "/public/books-images/immortalsofmeluha.jpg", 
+    "url": "https://en.wikipedia.org/wiki/The_Immortals_of_Meluha"
+  },
+  {
+    "title": "A Walk to Remember",
+    "author": "Nicholas Sparks",
+    "image": "/public/books-images/walktoremember.jpg",
+    "url": "https://en.wikipedia.org/wiki/A_Walk_to_Remember_(novel)"
+  },
+  {
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "image": "/public/books-images/bravenewworld.jpg",
+    "url": "https://en.wikipedia.org/wiki/Brave_New_World"
+  },
+  {
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "image": "/public/books-images/thealchemist.png", 
+    "url": "https://en.wikipedia.org/wiki/The_Alchemist_(novel)"
+  },
+  {
+    "title": "Tech Simplified for PMs and Entrepreneurs",
+    "author": "Deepak Singh",
+    "image": "/public/books-images/techsimplified.jpg",
+    "url": "https://www.flipkart.com/tech-simplified-pms-entrepreneurs/p/itmead7c6b1a8224"
+  },
+  {
+    "title": "Joker in the Pack",
+    "author": "Ritesh Sharma",
+    "image": "/public/books-images/jokerinpack.jpg",
+    "url": "https://www.amazon.in/Joker-Pack-Irreverent-View-Life/dp/8122204570"
+  }
+]

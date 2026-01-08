@@ -1,0 +1,19 @@
+{
+  "title": "Public Speaking",
+  "description": "Public speaking has been a long-standing passion of mine, starting with elocution and debate competitions in school and continuing through college. I’ve earned multiple accolades in debating and elocution. I love the energy of the stage, the craft of preparing speeches, and the confidence that comes from connecting with an audience.",
+  "image": "/public/speaking-images/publicspeaking.png",
+  "youtube": [
+    {
+      "title": "Patel Hall Gold winning GC English Elocution 2020",
+      "embedUrl": "https://www.youtube.com/embed/ZVF2BZL1t-8?si=VdPSxVjfXA6gbEp4"
+    },
+    {
+      "title": "Talk title",
+      "embedUrl": "https://www.youtube.com/embed/VIDEO_ID"
+    },
+    {
+      "title": "Talk title",
+      "embedUrl": "https://www.youtube.com/embed/VIDEO_ID"
+    }
+  ]
+}
