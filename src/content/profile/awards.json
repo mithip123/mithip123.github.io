@@ -3,63 +3,63 @@
         "title": "High Performer Award",
         "year": "2025",
         "issuer": "JoVE",
-        "logo": "/award-icons/jove.png",
+        "logo": "/award-icons/jove.webp",
         "location": "Remote"
     },
     {
         "title": "English Elocution, General Championship - Gold Medalist",
         "year": "2020",
         "issuer": "IIT Kharagpur",
-        "logo": "/award-icons/iit-kgp.png",
+        "logo": "/award-icons/iit-kgp.webp",
         "location": "Kharagpur"
     },
     {
         "title": "Dramatics, General Championship - Gold Medalist",
         "year": "2019",
         "issuer": "IIT Kharagpur",
-        "logo": "/award-icons/iit-kgp.png",
+        "logo": "/award-icons/iit-kgp.webp",
         "location": "Kharagpur"
     },
     {
         "title": "Go Green in the City - Semi Finalist",
         "year": "2018",
         "issuer": "Schneider Electric",
-        "logo": "/award-icons/schneider.png",
+        "logo": "/award-icons/schneider.webp",
         "location": "Kharagpur"
     },
     {
         "title": "Brand-Design Competition - Runner-up",
         "year": "2018",
         "issuer": "IIT Kharagpur",
-        "logo": "/award-icons/iit-kgp.png",
+        "logo": "/award-icons/iit-kgp.webp",
         "location": "Kharagpur"
     },
     {
         "title": "Hult Prize - Regional Finalist",
         "year": "2018",
         "issuer": "Hult Prize Association",
-        "logo": "/award-icons/hult.png",
+        "logo": "/award-icons/hult.webp",
         "location": "Kharagpur"
     },
     {
         "title": "Open IIT Elocution - 1st Position",
         "year": "2018",
         "issuer": "IIT Kharagpur",
-        "logo": "/award-icons/iit-kgp.png",
+        "logo": "/award-icons/iit-kgp.webp",
         "location": "Kharagpur"
     },
     {
         "title": "Open IIT Debate - 1st Position",
         "year": "2017",
         "issuer": "IIT Kharagpur",
-        "logo": "/award-icons/iit-kgp.png",
+        "logo": "/award-icons/iit-kgp.webp",
         "location": "Kharagpur"
     },
     {
         "title": "24th Munshi Memorial Debate Competition - 1st Prize",
         "year": "2012",
         "issuer": "Bharatiya Vidya Bhavan",
-        "logo": "/award-icons/bhavans.png",
+        "logo": "/award-icons/bhavans.webp",
         "location": "Nagpur"
     }
 ]

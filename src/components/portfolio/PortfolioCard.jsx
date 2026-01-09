@@ -3,21 +3,15 @@ import GlassCard from "../ui/GlassCard";
 
 function HoverSurface({ className = "", children }) {
   return (
-    <div
-      className={["transition-transform hover:-translate-y-[1px]", className].join(" ")}
-    >
+    <div className={["transition-transform hover:-translate-y-[1px]", className].join(" ")}>
       {children}
     </div>
   );
 }
 
 export default function PortfolioCard({ item, onOpen }) {
-  const coverSrc =
-    item.id === "site"
-      ? "/portfolio-images/glassmorphism.jpg"
-      : item.id === "jove"
-      ? "/portfolio-images/jove-cover.png"
-      : "/portfolio-images/inito-cover.png";
+  // ✅ Use cover from items.js (now .webp)
+  const coverSrc = item.cover || "/portfolio-images/glassmorphism.webp";
 
   return (
     <HoverSurface className="h-full">
@@ -38,14 +32,16 @@ export default function PortfolioCard({ item, onOpen }) {
             </div>
 
             <div className="mt-3 rounded-3xl border border-black/10 bg-white/55 overflow-hidden">
+              {/* ✅ CLS-safe: stable aspect ratio container already exists */}
               <div className="aspect-[16/10] bg-white">
                 <img
                   src={coverSrc}
                   alt={`${item.title} cover`}
                   className="h-full w-full object-cover"
                   loading="lazy"
+                  decoding="async"
                   onError={(e) => {
-                    e.currentTarget.src = "/portfolio-images/glassmorphism.jpg";
+                    e.currentTarget.src = "/portfolio-images/glassmorphism.webp";
                   }}
                 />
               </div>
@@ -56,12 +52,10 @@ export default function PortfolioCard({ item, onOpen }) {
         {/* Content */}
         <div className="p-5">
           <div className="text-lg font-semibold text-black/85">{item.title}</div>
-          <div className="mt-2 text-sm text-black/60 leading-relaxed">
-            {item.summary}
-          </div>
+          <div className="mt-2 text-sm text-black/60 leading-relaxed">{item.summary}</div>
 
           <ul className="mt-4 space-y-2 text-sm text-black/65">
-            {item.bullets.map((b) => (
+            {(item.bullets || []).map((b) => (
               <li key={b} className="flex gap-2">
                 <span className="mt-[7px] h-1.5 w-1.5 rounded-full bg-black/25 shrink-0" />
                 <span>{b}</span>
@@ -77,8 +71,7 @@ export default function PortfolioCard({ item, onOpen }) {
                 "inline-flex items-center justify-center gap-2 rounded-2xl px-4 py-2",
                 "bg-black text-white text-sm font-semibold",
                 "hover:bg-black/90 hover:shadow-[0_16px_45px_-26px_rgba(0,0,0,0.45)]",
-                "transition",
-                "w-full",
+                "transition w-full",
               ].join(" ")}
             >
               {item.type === "pdf" ? (

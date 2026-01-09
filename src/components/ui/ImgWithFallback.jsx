@@ -2,21 +2,32 @@ export default function ImgWithFallback({
   src,
   alt,
   className = "",
+  fill = false,
+  width,
+  height,
   sizes,
-  fetchPriority = "low",
+  loading = "lazy",
+  decoding = "async",
 }) {
   if (!src) return <div className={["bg-black/[0.04]", className].join(" ")} />;
 
   return (
     <img
       src={src}
-      alt={alt || ""}
-      loading="lazy"
-      decoding="async"
-      fetchpriority={fetchPriority}
-      referrerPolicy="no-referrer"
+      alt={alt}
+      loading={loading}
+      decoding={decoding}
       sizes={sizes}
-      className={["object-cover", className].join(" ")}
+      width={width}
+      height={height}
+      referrerPolicy="no-referrer"
+      className={[
+        "object-cover",
+        fill ? "absolute inset-0 h-full w-full" : "",
+        className,
+      ]
+        .filter(Boolean)
+        .join(" ")}
       onError={(e) => {
         e.currentTarget.style.display = "none";
       }}

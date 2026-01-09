@@ -15,12 +15,11 @@ export default function ArticleCard({ article }) {
         >
             <GlassCard className="h-full overflow-hidden transition duration-200 ease-out hover:bg-white/55 hover:-translate-y-[7px] hover:scale-[1.01] hover:shadow-[0_22px_50px_-22px_rgba(99,102,241,0.35)]">
                 {/* Media */}
-                <div className="bg-black/[0.04]">
+                <div className="relative aspect-[16/9] bg-black/[0.04] overflow-hidden">
                     <ImgWithFallback
                         src={a.image}
                         alt={a.title}
-                        className="w-full"
-                        aspectRatio="16/9"
+                        fill
                         width={1200}
                         height={675}
                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"

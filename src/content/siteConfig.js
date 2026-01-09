@@ -35,18 +35,18 @@ export const skills = [
 ];
 
 export const tools = [
-  { name: "Jira", img: "/tool-icons/jira.png" },
-  { name: "Notion", img: "/tool-icons/notion.png" },
-  { name: "Asana", img: "/tool-icons/asana.png" },
-  { name: "ChatGPT", img: "/tool-icons/chatgpt.png" },
-  { name: "Figma", img: "/tool-icons/figma.png" },
-  { name: "Adobe XD", img: "/tool-icons/adobe-xd.png" },
-  { name: "Excel", img: "/tool-icons/excel.png" },
-  { name: "SQL", img: "/tool-icons/sql.png" },
-  { name: "G. Analytics", img: "/tool-icons/google-analytics.png" },
-  { name: "Mixpanel", img: "/tool-icons/mixpanel.png" },
-  { name: "Zoho Desk", img: "/tool-icons/zohodesk.png" },
-  { name: "Zendesk", img: "/tool-icons/zendesk.png" },
+  { name: "Jira", img: "/tool-icons/jira.webp" },
+  { name: "Notion", img: "/tool-icons/notion.webp" },
+  { name: "Asana", img: "/tool-icons/asana.webp" },
+  { name: "ChatGPT", img: "/tool-icons/chatgpt.webp" },
+  { name: "Figma", img: "/tool-icons/figma.webp" },
+  { name: "Adobe XD", img: "/tool-icons/adobe-xd.webp" },
+  { name: "Excel", img: "/tool-icons/excel.webp" },
+  { name: "SQL", img: "/tool-icons/sql.webp" },
+  { name: "G. Analytics", img: "/tool-icons/google-analytics.webp" },
+  { name: "Mixpanel", img: "/tool-icons/mixpanel.webp" },
+  { name: "Zoho Desk", img: "/tool-icons/zohodesk.webp" },
+  { name: "Zendesk", img: "/tool-icons/zendesk.webp" },
 ];
 
 export const languages = [

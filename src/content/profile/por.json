@@ -3,7 +3,7 @@
     "positionTitle": "Math and English Tutor",
     "type": "Volunteer",
     "institutionName": "U&I Volunteer Org",
-    "logo": "/por-icons/uni.png",
+    "logo": "/por-icons/uni.webp",
     "duration": { "from": "Aug'22", "to": "Jul'23" },
     "location": "Bangalore",
     "description": [
@@ -19,7 +19,7 @@
     "positionTitle": "Student Placement Coordinator",
     "type": "Position held in college",
     "institutionName": "IIT Kharagpur",
-    "logo": "/por-icons/iit-kgp.png",
+    "logo": "/por-icons/iit-kgp.webp",
     "duration": { "from": "May'18", "to": "Apr'19" },
     "location": "Kharagpur",
     "description": [
@@ -37,7 +37,7 @@
     "positionTitle": "CDC Department Representative",
     "type": "Position held in college",
     "institutionName": "IIT Kharagpur",
-    "logo": "/por-icons/iit-kgp.png",
+    "logo": "/por-icons/iit-kgp.webp",
     "duration": { "from": "Sep'17", "to": "Apr'18" },
     "location": "Kharagpur",
     "description": [
@@ -53,7 +53,7 @@
     "positionTitle": "Social and Cultural Advisor",
     "type": "Position held in college",
     "institutionName": "Patel Hall, IIT Kharagpur",
-    "logo": "/por-icons/iit-kgp.png",
+    "logo": "/por-icons/iit-kgp.webp",
     "duration": { "from": "May'19", "to": "May'20" },
     "location": "Kharagpur",
     "description": [
@@ -68,7 +68,7 @@
     "positionTitle": "Dramatics Captain",
     "type": "Patel Hall, IIT Kharagpur",
     "institutionName": "IIT Kharagpur",
-    "logo": "/por-icons/iit-kgp.png",
+    "logo": "/por-icons/iit-kgp.webp",
     "duration": { "from": "May'18", "to": "Apr'19" },
     "location": "Kharagpur",
     "description": [
@@ -84,7 +84,7 @@
     "positionTitle": "Social and Cultural Coordinator",
     "type": "Patel Hall, IIT Kharagpur",
     "institutionName": "IIT Kharagpur",
-    "logo": "/por-icons/iit-kgp.png",
+    "logo": "/por-icons/iit-kgp.webp",
     "duration": { "from": "Jul'17", "to": "Apr'18" },
     "location": "Kharagpur",
     "description": [
@@ -102,7 +102,7 @@
     "positionTitle": "Vice Chairman, Alumni Committee",
     "type": "Position held in college",
     "institutionName": "Patel Hall, IIT Kharagpur",
-    "logo": "/por-icons/iit-kgp.png",
+    "logo": "/por-icons/iit-kgp.webp",
     "duration": { "from": "Jan'17", "to": "Apr'18" },
     "location": "Kharagpur",
     "description": [
@@ -118,7 +118,7 @@
     "positionTitle": "Associate Manager (Event, SMC, Finance and Logistics",
     "type": "Position held in college",
     "institutionName": "Entrepreneurship Cell, IIT Kharagpur",
-    "logo": "/por-icons/iit-kgp.png",
+    "logo": "/por-icons/iit-kgp.webp",
     "duration": { "from": "Oct'16", "to": "Mar'17" },
     "location": "Kharagpur",
     "description": [
@@ -136,7 +136,7 @@
     "positionTitle": "Associate Member",
     "type": "Position held in college",
     "institutionName": "Entrepreneurship Cell, IIT Kharagpur",
-    "logo": "/por-icons/iit-kgp.png",
+    "logo": "/por-icons/iit-kgp.webp",
     "duration": { "from": "Mar'16", "to": "Oct'16" },
     "location": "Kharagpur",
     "description": [
@@ -154,7 +154,7 @@
     "positionTitle": "Junior Associate",
     "type": "Position held in college",
     "institutionName": "Entrepreneurship Cell, IIT Kharagpur",
-    "logo": "/por-icons/iit-kgp.png",
+    "logo": "/por-icons/iit-kgp.webp",
     "duration": { "from": "Oct'15", "to": "Mar'16" },
     "location": "Kharagpur",
     "description": [

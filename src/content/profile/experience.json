@@ -2,7 +2,7 @@
   {
     "positionTitle": "Senior Product Manager",
     "companyName": "JoVE",
-    "companyLogo": "/experience-icons/jove.png",
+    "companyLogo": "/experience-icons/jove.webp",
     "location": "Remote",
     "duration": { "from": "Sep'23", "to": "Present" },
     "type": "Full Time",
@@ -37,7 +37,7 @@
   {
     "positionTitle": "Product Manager",
     "companyName": "Superset",
-    "companyLogo": "/experience-icons/superset.png",
+    "companyLogo": "/experience-icons/superset.webp",
     "location": "Bangalore",
     "duration": { "from": "Feb'21", "to": "Aug'23" },
     "type": "Full Time",
@@ -71,7 +71,7 @@
   {
     "positionTitle": "Data Engineer II",
     "companyName": "AB InBev",
-    "companyLogo": "/experience-icons/abinbev.png",
+    "companyLogo": "/experience-icons/abinbev.webp",
     "location": "Bangalore",
     "duration": { "from": "Jul'20", "to": "Feb'21" },
     "type": "Full Time",
@@ -88,7 +88,7 @@
   {
     "positionTitle": "Summer Intern",
     "companyName": "AB InBev",
-    "companyLogo": "/experience-icons/abinbev.png",
+    "companyLogo": "/experience-icons/abinbev.webp",
     "location": "Bangalore",
     "duration": { "from": "May'19", "to": "Jul'19" },
     "type": "Internship",
@@ -107,7 +107,7 @@
   {
     "positionTitle": "Summer Intern",
     "companyName": "ITC",
-    "companyLogo": "/experience-icons/itc.png",
+    "companyLogo": "/experience-icons/itc.webp",
     "location": "Saharanpur",
     "duration": { "from": "May'18", "to": "Jul'18" },
     "type": "Internship",
@@ -125,7 +125,7 @@
   {
     "positionTitle": "Summer Intern",
     "companyName": "Larsen & Toubro",
-    "companyLogo": "/experience-icons/lnt.png",
+    "companyLogo": "/experience-icons/lnt.webp",
     "location": "New Delhi",
     "duration": { "from": "May'17", "to": "Jul'17" },
     "type": "Internship",

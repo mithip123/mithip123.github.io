@@ -2,55 +2,55 @@
   {
     "title": "Kim's Convenience",
     "platform": "TV Series - Netflix",
-    "image": "/movies-images/kimsconvenience.jpeg",
+    "image": "/movies-images/kimsconvenience.webp",
     "url": "https://www.netflix.com/in/title/80199128"
   },
   {
     "title": "Knives Out Series",
     "platform": "Movie Series - Netflix",
-    "image": "/movies-images/knivesout.jpeg",
+    "image": "/movies-images/knivesout.webp",
     "url": "https://www.netflix.com/in/title/81037684"
   },
   {
     "title": "Oppenheimer",
     "platform": "Movie - Prime Video",
-    "image": "/movies-images/oppenheimer.jpeg",
+    "image": "/movies-images/oppenheimer.webp",
     "url": "https://www.primevideo.com/detail/Oppenheimer/0TQ0HYSFFKAO9W3UUIOMSTPUJ7"
   },
   {
     "title": "The Residence",
     "platform": "TV Series - Netflix",
-    "image": "/movies-images/theresidence.jpg",
+    "image": "/movies-images/theresidence.webp",
     "url": "https://www.netflix.com/in/title/81005297"
   },
   {
     "title": "Brooklyn Nine-Nine",
     "platform": "TV Series - Netflix",
-    "image": "/movies-images/b99.jpeg",
+    "image": "/movies-images/b99.webp",
     "url": "https://www.netflix.com/in/title/70281562"
   },
   {
     "title": "Schitt's Creek",
     "platform": "TV Series - Netflix",
-    "image": "/movies-images/schittscreek.jpeg",
+    "image": "/movies-images/schittscreek.webp",
     "url": "http://netflix.com/in/title/80036165"
   },
   {
     "title": "Mirzapur",
     "platform": "TV Series - Prime Video",
-    "image": "/movies-images/mirzapur.jpeg",
+    "image": "/movies-images/mirzapur.webp",
     "url": "https://www.primevideo.com/detail/Mirzapur/0PDOKMV9CRLOMO5EUKNCUJLG4Q"
   },
   {
     "title": "The Office",
     "platform": "TV Series - Prime Video",
-    "image": "/movies-images/theoffice.jpg",
+    "image": "/movies-images/theoffice.webp",
     "url": "https://www.primevideo.com/detail/The-Office/0RMLEWROKWCLRYETGB757AYS4L"
   },
   {
     "title": "Panchayat",
     "platform": "TV Series - Prime Video",
-    "image": "/movies-images/panchayat.jpg",
+    "image": "/movies-images/panchayat.webp",
     "url": "https://www.primevideo.com/detail/Panchayat/0KAFPP1MAADAFUOA6I2WR5D4TM"
   }
 ]

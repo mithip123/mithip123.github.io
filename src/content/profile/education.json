@@ -5,7 +5,7 @@
     "duration": { "from": "Jul'15", "to": "May'20" },
     "score": "8.32 CGPA",
     "location": "Kharagpur",
-    "logo": "education-icons/iit-kgp.png"
+    "logo": "education-icons/iit-kgp.webp"
   },
   {
     "degreeName": "Higher Secondary (Class XII)",
@@ -13,7 +13,7 @@
     "duration": { "from": "Jul'13", "to": "May'15" },
     "score": "97%",
     "location": "Hyderabad",
-    "logo": "education-icons/chaitanya.png"
+    "logo": "education-icons/chaitanya.webp"
   },
   {
     "degreeName": "Secondary (Class X)",
@@ -21,6 +21,6 @@
     "duration": { "from": "Jun'12", "to": "May'13" },
     "score": "10.00 CGPA",
     "location": "Wardha",
-    "logo": "education-icons/bhavans.png"
+    "logo": "education-icons/bhavans.webp"
   }
 ]
