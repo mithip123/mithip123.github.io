@@ -185,7 +185,9 @@ export default function App() {
           </Routes>
         </Suspense>
 
-        <SiteFooter />
+        <div className="mt-6">
+          <SiteFooter />
+        </div>
         <MobileBottomNav onContact={() => setContactOpen(true)} />
       </div>
 
