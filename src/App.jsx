@@ -20,8 +20,9 @@ import MobileBottomNav from "./components/layout/MobileBottomNav";
 import SiteFooter from "./components/layout/SiteFooter";
 import AnalyticsRouteTracker from "./components/seo/AnalyticsRouteTracker";
 import { loadGA } from "./components/seo/loadGA";
+import ProfilePage from "./pages/Profile";
 
-const ProfilePage = lazy(() => import("./pages/Profile"));
+//const ProfilePage = lazy(() => import("./pages/Profile"));
 const Portfolio = lazy(() => import("./pages/Portfolio"));
 const Interests = lazy(() => import("./pages/Interests"));
 const Articles = lazy(() => import("./pages/Articles"));

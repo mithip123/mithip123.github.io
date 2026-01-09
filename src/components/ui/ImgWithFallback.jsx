@@ -1,7 +1,7 @@
 export default function ImgWithFallback({
   src,
   srcSet,
-  sizes = "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+  sizes,
   alt = "",
   className = "",
   fill = false,
@@ -9,30 +9,27 @@ export default function ImgWithFallback({
   height,
   loading = "lazy",
   decoding = "async",
-  fetchPriority,
-  style,
 }) {
-  if (!src) {
-    return <div className={["bg-black/[0.04]", className].join(" ")} />;
-  }
+  if (!src) return <div className={["bg-black/[0.04]", className].join(" ")} />;
 
   return (
     <img
       src={src}
       srcSet={srcSet}
-      sizes={srcSet ? sizes : undefined}
+      sizes={sizes}
       alt={alt}
       loading={loading}
       decoding={decoding}
-      fetchpriority={fetchPriority}
       width={width}
       height={height}
       referrerPolicy="no-referrer"
-      style={style}
       className={[
-        fill ? "absolute inset-0 h-full w-full object-cover" : "object-cover",
+        "object-cover",
+        fill ? "absolute inset-0 h-full w-full" : "",
         className,
-      ].join(" ")}
+      ]
+        .filter(Boolean)
+        .join(" ")}
       onError={(e) => {
         e.currentTarget.style.display = "none";
       }}
