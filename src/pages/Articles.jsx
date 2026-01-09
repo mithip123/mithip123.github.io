@@ -5,26 +5,26 @@ import articlesData from "../content/articles/articles.json";
 import useSEO from "../components/seo/useSEO";
 
 export default function Articles() {
-  useSEO({
-    title: "Articles - Mithilesh Pinjarkar",
-    description:
-      "Articles by Mithilesh Pinjarkar on product management, entrepreneurship, interview and resume prep",
-    path: "/articles/",
-  });
+    useSEO({
+        title: "Articles - Mithilesh Pinjarkar",
+        description:
+            "Articles by Mithilesh Pinjarkar on product management, entrepreneurship, interview and resume prep",
+        path: "/articles/",
+    });
 
-  const articles = articlesData || [];
+    const articles = articlesData || [];
 
-  return (
-    <PageContainer id="articles">
-      <div className="space-y-6">
-        <SectionHeader variant="page" title="Articles" subtitle="Some articles that I wrote..." />
+    return (
+        <PageContainer id="articles">
+            <div className="space-y-6">
+                <SectionHeader variant="page" title="Articles" subtitle="Some articles that I wrote..." />
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-          {articles.map((a) => (
-            <ArticleCard key={a.url || a.title} article={a} />
-          ))}
-        </div>
-      </div>
-    </PageContainer>
-  );
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                    {articles.map((a, idx) => (
+                        <ArticleCard key={a.url || a.title} article={a} priority={idx === 0} />
+                    ))}
+                </div>
+            </div>
+        </PageContainer>
+    );
 }

@@ -2,7 +2,7 @@ import { ExternalLink, Heart } from "lucide-react";
 import GlassCard from "../ui/GlassCard";
 import ImgWithFallback from "../ui/ImgWithFallback";
 
-export default function ArticleCard({ article }) {
+export default function ArticleCard({ article, priority = false }) {
     const a = article || {};
     const href = a.url || "#";
 
@@ -14,17 +14,16 @@ export default function ArticleCard({ article }) {
             className="block h-full group"
         >
             <GlassCard className="h-full overflow-hidden transition duration-200 ease-out hover:bg-white/55 hover:-translate-y-[7px] hover:scale-[1.01] hover:shadow-[0_22px_50px_-22px_rgba(99,102,241,0.35)]">
-                {/* Media */}
                 <div className="relative aspect-[16/9] bg-black/[0.04] overflow-hidden">
                     <ImgWithFallback
                         src={a.image}
                         alt={a.title}
+                        fill
                         width={1200}
                         height={675}
-                        className="h-full w-full object-cover"
                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                        loading="lazy"
-                        decoding="async"
+                        loading={priority ? "eager" : "lazy"}
+                        fetchpriority={priority ? "high" : "auto"}
                     />
                 </div>
 
