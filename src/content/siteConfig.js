@@ -11,9 +11,9 @@ export const OG_IMAGE = `${SITE_URL}/og.png`;
 
 export const navItems = [
   { label: "Profile", to: "/" },
-  { label: "Portfolio", to: "/portfolio" },
-  { label: "Interests", to: "/interests" },
-  { label: "Articles", to: "/articles" },
+  { label: "Portfolio", to: "/portfolio/" },
+  { label: "Interests", to: "/interests/" },
+  { label: "Articles", to: "/articles/" },
 ];
 
 export const stats = [

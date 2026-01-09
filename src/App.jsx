@@ -32,7 +32,14 @@ export default function App() {
   const GA_ID = import.meta.env.VITE_GA_ID;
 
   useEffect(() => {
-    if (GA_ID) loadGA(GA_ID);
+    if (!GA_ID) return;
+    const run = () => loadGA(GA_ID);
+    // Defer GA so it doesn't block performance scoring
+    if ("requestIdleCallback" in window) {
+      window.requestIdleCallback(run, { timeout: 2000 });
+    } else {
+      setTimeout(run, 1500);
+    }
   }, [GA_ID]);
 
   const headerMemojiSrc = "/avatar.png";
@@ -181,9 +188,9 @@ export default function App() {
                   />
                 }
               />
-              <Route path="/articles" element={<Articles />} />
-              <Route path="/portfolio" element={<Portfolio />} />
-              <Route path="/interests" element={<Interests />} />
+              <Route path="/articles/*" element={<Articles />} />
+              <Route path="/portfolio/*" element={<Portfolio />} />
+              <Route path="/interests/*" element={<Interests />} />
               <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
           </Suspense>

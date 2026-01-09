@@ -19,10 +19,12 @@ export default function ArticleCard({ article }) {
                     <ImgWithFallback
                         src={a.image}
                         alt={a.title}
-                        fill
                         width={1200}
                         height={675}
+                        className="h-full w-full object-cover"
                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                        loading="lazy"
+                        decoding="async"
                     />
                 </div>
 
