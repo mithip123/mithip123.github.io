@@ -40,7 +40,8 @@ export default function App() {
   return (
     <div className="min-h-screen text-black bg-[radial-gradient(1000px_520px_at_18%_12%,rgba(15,23,42,0.06),transparent_50%), radial-gradient(900px_520px_at_82%_18%,rgba(15,23,42,0.04),transparent_55%),linear-gradient(to_bottom,#fff,#fff)] bg-fixed">
       <div className="mx-auto max-w-6xl px-2 py-2 pb-24 md:pb-8">
-        <div className="hidden md:block sticky top-2 z-50">
+        {/* Header */}
+        <header className="hidden md:block sticky top-2 z-50">
           <GlassCard className="px-4 py-2.5 sm:px-5">
             <div className="flex items-center justify-between gap-3">
               <div className="flex items-center gap-3">
@@ -148,46 +149,47 @@ export default function App() {
             )}
             <div className="absolute inset-x-4 bottom-0 h-px bg-black/5" />
           </GlassCard>
-        </div>
+        </header>
 
-        <Suspense
-          fallback={
-            <div className="py-10">
-              <GlassCard className="p-6">
-                <div className="text-sm font-medium text-black/60">Loading…</div>
-              </GlassCard>
-            </div>
-          }
-        >
-          <AnalyticsRouteTracker />
-          <Routes>
-            <Route
-              path="/"
-              element={
-                <ProfilePage
-                  stats={stats}
-                  skills={skills}
-                  tools={tools}
-                  languages={languages}
-                  INSTAGRAM_URL={INSTAGRAM_URL}
-                  LINKEDIN_URL={LINKEDIN_URL}
-                  TWITTER_URL={TWITTER_URL}
-                  MEDIUM_URL={MEDIUM_URL}
-                  contactOpen={contactOpen}
-                  setContactOpen={setContactOpen}
-                />
-              }
-            />
-            <Route path="/articles" element={<Articles />} />
-            <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="/interests" element={<Interests />} />
-            <Route path="*" element={<Navigate to="/" replace />} />
-          </Routes>
-        </Suspense>
+        {/* Main (fixes "main landmark" + reserves height to reduce CLS) */}
+        <main id="main" className="min-h-[70vh]">
+          <Suspense
+            fallback={
+              <div className="py-10 min-h-[70vh]">
+                <GlassCard className="p-6">
+                  <div className="text-sm font-medium text-black/60">Loading…</div>
+                </GlassCard>
+              </div>
+            }
+          >
+            <AnalyticsRouteTracker />
+            <Routes>
+              <Route
+                path="/"
+                element={
+                  <ProfilePage
+                    stats={stats}
+                    skills={skills}
+                    tools={tools}
+                    languages={languages}
+                    INSTAGRAM_URL={INSTAGRAM_URL}
+                    LINKEDIN_URL={LINKEDIN_URL}
+                    TWITTER_URL={TWITTER_URL}
+                    MEDIUM_URL={MEDIUM_URL}
+                    contactOpen={contactOpen}
+                    setContactOpen={setContactOpen}
+                  />
+                }
+              />
+              <Route path="/articles" element={<Articles />} />
+              <Route path="/portfolio" element={<Portfolio />} />
+              <Route path="/interests" element={<Interests />} />
+              <Route path="*" element={<Navigate to="/" replace />} />
+            </Routes>
+          </Suspense>
+        </main>
 
-        <div className="mt-6">
-          <SiteFooter />
-        </div>
+        <SiteFooter />
         <MobileBottomNav onContact={() => setContactOpen(true)} />
       </div>
 
