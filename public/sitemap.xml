@@ -5,15 +5,15 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://mithip123.github.io/portfolio</loc>
+    <loc>https://mithip123.github.io/portfolio/</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://mithip123.github.io/interests</loc>
+    <loc>https://mithip123.github.io/interests/</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mithip123.github.io/articles</loc>
+    <loc>https://mithip123.github.io/articles/</loc>
     <priority>0.6</priority>
   </url>
 </urlset>
